@@ -1,0 +1,44 @@
+{
+    "action": "load",
+    "action_id": "615588438c0f1baa8a97751b",
+    "description": "",
+    "display_name": "manual1",
+    "environment": {
+        "dependencies": {
+            "forepaas": {},
+            "javascript": {},
+            "python": {},
+            "system": {}
+        },
+        "fpu": {
+            "instances": 1,
+            "size": 2
+        },
+        "log_level": "info",
+        "params": {
+            "auto_flushall": true,
+            "perimeter": {},
+            "segmentation": {}
+        },
+        "timeout": "24h",
+        "variables": {}
+    },
+    "history": null,
+    "language": "python3",
+    "modules": [
+        {
+            "id": "load",
+            "type": "action",
+            "version": "latest"
+        }
+    ],
+    "name": "manual1",
+    "params": {
+        "stop_on_failure": false,
+        "timeout": "2h"
+    },
+    "tags": {
+        "path": "",
+        "tags": []
+    }
+}
